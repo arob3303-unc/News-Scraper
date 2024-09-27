@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyNews</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+</head>
+<body>
+    <h1> Search News Articles from around the World!</h1>
+
+    <!-- user input -->
+    <form method="POST" action="/search">
+        <label for="keyword">Enter a keyword:</label>
+        <input type="text" id="keyword" name="keyword">
+
+        <label for="source">Enter a news source (optional):</label>
+        <input type="text" id="source" name="source">
+
+        <button type="submit">Search</button>
+        <button type="clear">Clear</button>
+    </form>
+
+    <!-- Display the search results -->
+    {% if headlines %}
+        <h2>Search Results</h2>
+        <ul>
+            {% for article in headlines %}
+                <li>
+                    <a href="{{ article.url }}">{{article.title}}</a> - {{ article.source.name}}
+                    <p>{{ article.description }}</p>
+                    <p>Author: {{ article.author }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% elif error %}
+        <p>{{ error }}</p>
+    {% endif %}
+
+</body>
+</html>

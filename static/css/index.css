@@ -1,0 +1,12 @@
+body{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
+h1 {
+    text-align: center;
+    color: indianred;
+}
+a {
+    font-size: 125%;
+}
