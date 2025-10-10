@@ -24,5 +24,6 @@ Users can search by **keyword** to quickly access articles, along with metadata 
 ---
 
 ## 🖼️ Screenshots  
-- will add screenshots soon.
+<img width="800" height="800" alt="newspicforgithub" src="https://github.com/user-attachments/assets/29e51e75-b94e-4169-8843-0bec1a08e6b4" />
+
 
