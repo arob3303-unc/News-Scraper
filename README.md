@@ -15,7 +15,7 @@ Users can search by **keyword** to quickly access articles, along with metadata 
 
 ---
 
-## 🚀 Features  
+## Features  
 - **Keyword Search** → Query articles by keyword across multiple global sources.  
 - **Multi-Source Coverage** → Aggregates perspectives for balanced, unbiased results.  
 - **Metadata Display** → Title, author, publication date, and link to the original article.  
@@ -23,7 +23,7 @@ Users can search by **keyword** to quickly access articles, along with metadata 
 
 ---
 
-## 🖼️ Screenshots  
+## Screenshots  
 <img width="800" height="800" alt="newspicforgithub" src="https://github.com/user-attachments/assets/29e51e75-b94e-4169-8843-0bec1a08e6b4" />
 
 
